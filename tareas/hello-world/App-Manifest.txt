@@ -1,0 +1,5 @@
+Organization: tec.poo
+Name: Hello-World-App
+Version: 1.0.0
+Dev: Gabriel
+Main-Class: tec.poo.hello.HelloWorld
