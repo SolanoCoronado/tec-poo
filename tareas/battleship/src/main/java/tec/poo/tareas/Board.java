@@ -1,23 +1,33 @@
 package tec.poo.tareas;
 
+
 public class Board {
-    private int[] boardArray;
+    private int ROW = 7;
+    private int COLUMN = 7;
+    private String[][] boardArray;
+
+
 
     public Board(){
-        boardArray = new int[7];
+        boardArray = new String[ROW][COLUMN];
         fullArray();
 
     }
 
     public void fullArray(){
-        for (int i=0; i< boardArray.length;i++){
-            this.boardArray[i]= i;
-
-
+        for (int i=0; i< ROW;i++){
+            for (int j = 0; j< COLUMN; j++){
+                this.boardArray[i][j]=letter(i)+(j);
+            }
         }
+
+    }
+    public static String letter(int index) {
+        return Character.toString((char) ('A' + index));
     }
 
-    public int[] getBoardArray() {
-        return boardArray;
+    public String[][] getBoardArray() {
+
+        return this.boardArray;
     }
 }

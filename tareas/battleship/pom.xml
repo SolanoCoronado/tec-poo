@@ -5,8 +5,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>tec.poo.tareas</groupId>
-  <artifactId>battleship</artifactId>
-  <version>1.0.0</version>
+  <artifactId>battleshipGame</artifactId>
+  <version>1.0.1</version>
 
   <name>battleship</name>
   <!-- FIXME change it to the project's website -->
