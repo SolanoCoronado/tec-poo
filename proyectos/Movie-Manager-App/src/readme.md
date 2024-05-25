@@ -11,3 +11,7 @@ y creara el archivo en el directorio del proyecto
 Ejemplo de como se ejecutan comandos
 $ java -jar target/Movie_Manager_App-1.0.0-jar-with-dependencies.jar list-movies-filter-by-category horror
 
+PARA EL GUI
+
+El save se pone de este formato sin comillas
+C:\Users\Gabriel\Desktop\Movie-Manager-App\movies.dat
